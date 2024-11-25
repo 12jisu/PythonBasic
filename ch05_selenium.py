@@ -13,7 +13,7 @@ import time
 # 디폴트: SELENIUM 코드 종료, 웹브라우저 종료!
 # 1. 셀레니움 웹브라우저 설정
 options = Options()
-options.add_experimental_option("detach", True)  # 웹브라우저 종료 X(개발)
+options.add_experimental_option("detach", True)  # 웹브라우저 종료 X(개발 완료)
 # options.add_argument("headless")  # 셀레니움 백그라운드 동작(개발 완료)
 
 # ※ 셀레니움이 로봇이 아닌척 하는 방법
